@@ -96,6 +96,15 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-7f82a6186d7045c7bfeae2042a3ca81b.xml#id-7f82a6186d7045c7bfeae2042a3ca81b"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-29db25d30db644628e8f955fe50c8daa"
+        source="id-bf131a436bae48f5bc06e29acbd09f42"
+        target="id-eddd9cfc2fb043e181a92edf0e11fbd2">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-79619a77ed544e90b43a03e4d99450f2.xml#id-79619a77ed544e90b43a03e4d99450f2"/>
+    </sourceConnections>
     <bounds
         x="1170"
         y="114"
@@ -238,7 +247,7 @@
       id="id-6b64969d95194070b7ea53ddf704bc26"
       targetConnections="id-5dc709bd8d4b4aa997861007fd8ab0c0">
     <bounds
-        x="1368"
+        x="1404"
         y="324"
         width="120"
         height="55"/>
@@ -251,7 +260,7 @@
       id="id-7bb249d08a8a4d1ebc157a4c3b20bfb3"
       targetConnections="id-1f6290ab89274d669b1cf4febf6712ba">
     <bounds
-        x="1191"
+        x="1116"
         y="324"
         width="120"
         height="55"/>
@@ -277,7 +286,7 @@
       id="id-97ba9cadbbc845879d31bc06889c1da0"
       targetConnections="id-0d88d681c1e34dfea4c543a5f764aa95">
     <bounds
-        x="1032"
+        x="972"
         y="324"
         width="120"
         height="55"/>
@@ -323,5 +332,18 @@
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-7b193abfaf2944e586445542b9e0f914.xml#id-7b193abfaf2944e586445542b9e0f914"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-eddd9cfc2fb043e181a92edf0e11fbd2"
+      targetConnections="id-29db25d30db644628e8f955fe50c8daa">
+    <bounds
+        x="1260"
+        y="324"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Goal"
+        href="Goal_id-6431452abf784a79b1a2b6611bf2e2a9.xml#id-6431452abf784a79b1a2b6611bf2e2a9"/>
   </children>
 </archimate:ArchimateDiagramModel>
